@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: orange;
+	color: whitesmoke;
+}
+
+
+header,main {
+	text-align: center;
+	margin: 20px;
+	padding: 20px;
+}
+
+
+header > h1,h2 {
+	font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 2.6em;
+  text-transform: uppercase;
+  margin-top: 20px;
+	
+}
+
+#stopwatch-el {
+	margin: 20px;
+	font-size: 32px;
+	font-family: fantasy;
+
+}
+
+
+#buttonContainer > button {
+	margin: 50px;
+}
+
+
+button {
+	padding: 30px;
+	width: 220px;
+	background-color: transparent;
+	display: inline;
+	border: 1px solid white;
+	color: white;
+	font-size: 20px;
+	font-family: fantasy;
+}
+
+
+button:hover{
+	background-color: white;
+	color: darkorange;
+}
